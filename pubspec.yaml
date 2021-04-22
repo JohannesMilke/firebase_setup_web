@@ -1,0 +1,37 @@
+name: firebase_setup_web
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # Online Storage For Files
+  firebase_storage: ^8.0.4
+
+  # Online Database For Data
+  cloud_firestore: ^1.0.6
+
+  # Add Authentication such as Google SignIn, Facebook SignIn, Apple SignIn, Phone Auth etc.
+  firebase_auth: ^1.1.1
+
+  firebase_messaging: ^9.1.1
+
+  ## And many more Firebase packages you could use
+  #firebase_messaging: ^9.1.1
+  #firebase_analytics: ^8.0.0
+  #firebase_dynamic_links: ^2.0.0
+  #cloud_functions: ^1.0.3
+  #firebase_ml_vision: ^0.12.0
+  #firebase_crashlytics: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
